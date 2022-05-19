@@ -1,0 +1,29 @@
+.my-container1 {
+    display: flex;
+    width: 80%;
+    height: 600px;
+    margin: 60px auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.my-item {
+    height: 50px;
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 30px;
+    border: 4px solid #ffff;
+    flex-basis: 300px;
+}
+
+.shrink-1 {
+    flex-shrink: 1;
+}
+
+.shrink-3 {
+    flex-shrink: 3;
+}

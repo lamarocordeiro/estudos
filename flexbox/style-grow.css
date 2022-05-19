@@ -1,0 +1,29 @@
+.my-container1 {
+    display: flex;
+    width: 80%;
+    height: 600px;
+    margin: 60px auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.my-item {
+    height: 50px;
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 30px;
+    border: 4px solid #ffff;
+    flex-basis: 10%;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.grow-2 {
+    flex-grow: 2;
+}
