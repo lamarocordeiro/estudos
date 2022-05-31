@@ -1,0 +1,33 @@
+@keyframes dashAnim {
+    from {
+        stroke-dasharray: 10;
+        stroke-dashoffset: 5;
+        fill: transparent;
+
+    }
+
+    to {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 0;
+        fill: red;
+    }
+
+
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.st0 {
+    fill: transparent;
+    stroke: red;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 5;
+    stroke-dashoffset: 5;
+    animation: dashAnim 10s linear forwards;
+}
